@@ -68,7 +68,7 @@ char * efface(const char * mot, char * ch){
 	for (i=pos;pos2==0;i++) //init la position de début
 	{
 		if(ch[i]==' ' || ch[i]==0)
-			pos2=i;// Quand on trouve le car qu'on veut on le stock pour la ré
+			pos2=i;// Quand on trouve le car qu'on veut on le stock pour le réutiliser pour détecter les espaces
 	}
 	for (i=pos;i<pos2+1;i++)
 		ch[i]=' '; // on remplace par un espace , et voilà on a effacé notre truc au lieu de décrémenter à chaque fois :>
