@@ -21,7 +21,7 @@ int main()
 {
  char cde[MAX] ; // permet de saisir une commande
  Tchaine s1,s2; // Chaines de caracteres
- char car[MAX] ;/*0   4   8   12  16  20    24   28   32   36  */
+ char car[MAX] ;
 char liste_cdes[]="pre-sfp-phr-der-sfd-mir-mmb-eff-hlp-fin"; //Definie la liste des commandes de l'interpreteur
 int termine=FAUX ;
 int pos ; // variable correspondant a la position de "cde" dans "liste_cdes"
